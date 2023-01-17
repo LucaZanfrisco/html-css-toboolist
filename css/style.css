@@ -19,3 +19,32 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 40px;
 }
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.button-con{
+    border-bottom: 2px solid lightgray;
+    padding: 10px 0px 10px 50px;
+}
+.style-button{
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.blue{
+    background-color: #47ADF1;
+    color: white;
+}
+.white{
+    background-color: white;
+    color:  #C8CED3;
+    border: 1px solid  #C8CED3;
+}
