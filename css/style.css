@@ -3,7 +3,7 @@
 }
 /* colore generela sfondo */
 body{
-    background-color: #F6F8F9;
+    background-color: #F6F8F9; 
 }
 /* colore generale sfondo */
 
@@ -30,13 +30,14 @@ body{
     background-color: white;
     margin-top: 50px;
     border-radius: 10px;
+    padding-bottom: 50px;
 }
 /* fine style main  */
 
 /* inzio style button  */
 .button-con{
     border-bottom: 2px solid lightgray;
-    padding: 10px 0px 10px 50px;
+    padding: 10px 0px 10px 60px;
 }
 .style-button{
     height: 30px;
@@ -46,11 +47,8 @@ body{
     font-weight: bold;
     padding: 0 10px;
 }
-.blue{
-    background-color: #47ADF1;
-    color: white;
-}
-.white{
+
+.grey{
     background-color: white;
     color:  #C8CED3;
     border: 1px solid  #C8CED3;
@@ -59,7 +57,7 @@ body{
 
 /* container generale to-do list  */
 .to-contain{
-    padding: 20px 0px 0px 50px;
+    padding: 20px 0px 0px 60px;
     margin-bottom: 10px;
 }
 /* /container generale to-do list  */
@@ -75,18 +73,27 @@ h2::before{
 }
 .tag-cont{
     display: inline-block;
-    padding: 8px;
+    padding: 5px 15px;
     border-radius: 15px;
+    vertical-align: middle;
 }
 .text-cont{
-    margin-bottom: 10px;
+    margin: 10px 0px 20px;
 }
 .text{
     display: inline-block;
     vertical-align: middle;
     font-size: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* inzio spunte di done e undone  */
 .done::before{
     content: '\2714';
     display: inline-block;
@@ -99,13 +106,6 @@ h2::before{
     text-align: center;
     vertical-align: middle;
 }
-
-ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
 .undone::before{
     content: '\2716';
     display: inline-block;
@@ -118,3 +118,28 @@ ul{
     text-align: center;
     vertical-align: middle;
 }
+/* fine spunte di done e undone  */
+
+/* inzio colori tag  */
+.tag-text{
+    color: white;
+}
+.blue{
+    background-color: #47ADF1;
+}
+.violet{
+    background-color: #9C72E4;
+}
+.green{
+    background-color: #65C1AA;
+}
+.orange{
+    background-color: #F29E33;
+}
+.purple{
+    background-color: #D863A1;
+}
+.yellow{
+    background-color: #B0C926;
+}
+/* fine colori tag  */
