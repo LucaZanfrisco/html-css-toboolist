@@ -1,11 +1,13 @@
 *{
     box-sizing: border-box;
 }
-
+/* colore generela sfondo */
 body{
     background-color: #F6F8F9;
 }
+/* colore generale sfondo */
 
+/* inizio style header  */
 .header-container{
     background-color: white;
 }
@@ -19,6 +21,9 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 40px;
 }
+/* fine style header */
+
+/* Inzio style main  */
 .container{
     max-width: 80%;
     margin: 0 auto;
@@ -26,6 +31,9 @@ body{
     margin-top: 50px;
     border-radius: 10px;
 }
+/* fine style main  */
+
+/* inzio style button  */
 .button-con{
     border-bottom: 2px solid lightgray;
     padding: 10px 0px 10px 50px;
@@ -38,7 +46,6 @@ body{
     font-weight: bold;
     padding: 0 10px;
 }
-
 .blue{
     background-color: #47ADF1;
     color: white;
@@ -48,3 +55,4 @@ body{
     color:  #C8CED3;
     border: 1px solid  #C8CED3;
 }
+/* fine style button  */
